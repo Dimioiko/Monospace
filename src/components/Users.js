@@ -48,6 +48,13 @@ export function Users() {
 
     return (
         <div className="users">
+            <div className="header">
+                <div>Type</div>
+                <div>Name</div>
+                <div>Email</div>
+                <div>Telephone</div>
+                <div>Status</div>
+            </div>
             {users.map((user) => (
                 <User
                     key={user.id}
